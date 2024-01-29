@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-- [Spring](/spring)
+- [Spring](/spring/Spring.md)
   - [Spring @Validated 实现自定义校验规则](/spring/Spring%20@Validated%20实现自定义校验规则.md)
   - [Spring Boot BeanPostProcessor 获取服务内部信息](/spring/Spring%20Boot%20BeanPostProcessor%20获取服务内部信息.md)
   - [Spring Boot Starter 实践](/spring/Spring%20Boot%20Starter%20实践.md)
@@ -10,7 +10,7 @@
   - [Spring Boot 数据源配置](/spring/Spring%20Boot%20数据源配置.md)
   - [Spring Boot 线程池用起来](/spring/Spring%20Boot%20线程池用起来.md)
   - [Spring Boot 缓存使用](/spring/Spring%20Boot%20缓存使用.md)
-- [MySql](/mysql)
+- [MySql](/mysql/MySql.md)
   - [MySql explain 使用](/mysql/MySql%20explain.md)
   - [MySql 修改字符集的方式](/mysql/MySql%20修改字符集的方式.md)
   - [MySql 如何求连续最大天数](/mysql/MySql%20如何求连续最大天数.md)
