@@ -1,5 +1,4 @@
 <!-- docs/_sidebar.md -->
-
 - [Java](/java/Java.md)
   - [Java序列化和反序列化](/java/Java序列化和反序列化.md)
   - [Java8流式算法](/java/Java8流式算法.md)
