@@ -1,4 +1,4 @@
-# Spring @Validated 实现自定义校验规则
+# javaSpring @Validated 实现自定义校验规则
 
 \`@Validated\` 是Spring Framework中用于启用方法级别的验证的注解。要实现自定义校验规则，需要按照以下步骤进行操作
 
@@ -84,5 +84,4 @@ public class WebConfig implements WebMvcConfigurer {
   
 
 原文地址：[spring @Validated 实现自定义校验规则](https://zhuanlan.zhihu.com/p/676250456) 
-
 
