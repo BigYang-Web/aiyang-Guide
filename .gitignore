@@ -1,3 +1,4 @@
 .idea
 ./GenerateDir.java
 out/
+./node_modules
