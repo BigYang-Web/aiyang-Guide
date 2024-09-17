@@ -9,10 +9,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!-- 设置浏览器图标 -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./icon.svg" type="image/x-icon"/>
+    <link rel="shortcut icon" href="./icon.svg" type="image/x-icon"/>
     <!-- 默认主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 
     <style>
         .container {
@@ -36,10 +36,10 @@
         loadSidebar: true,
         sidebarDisplayLevel: 1,
         alias: {
-            '/.*/_sidebar.md': '/_sidebar.md'
+            '/.*/_sidebar.md': '/1_sidebar.md'
         },
         // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
-        loadNavbar: true,
+        loadNavbar: false,
         // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
         coverpage: false,
         // 最大支持渲染的标题层级
@@ -97,28 +97,12 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 <!-- 搜索功能支持 -->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-
 <!-- code render-->
 <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-bash.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-python.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination@latest/dist/docsify-pagination.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-<!-- gitalk支持-->
-<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
-<!--  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>-->
-<!--  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>-->
-<script>
-    // const gitalk = new Gitalk({
-    //   clientID: 'Github Application Client ID',
-    //   clientSecret: 'Github Application Client Secret',
-    //   repo: 'Github repo',
-    //   owner: 'Github repo owner',
-    //   admin: ['Github repo collaborators, only these guys can initialize github issues'],
-    //   // facebook-like distraction free mode
-    //   distractionFreeMode: false
-    // })
-</script>
 <!--字数统计-->
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 
